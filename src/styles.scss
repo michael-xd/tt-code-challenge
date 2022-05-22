@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #091E2D;
+  --color-primary-contrast: #FFF;
+  --color-secondary: #ECB746;
+  --color-secondary-contrast: #091E2C;
+  --color-background: #FFF;
+  --color-text: #58585b;
+  --color-error-text: #A80000;
+}
+
+*, html{
+  margin:0;
+  padding:0;
+}
+
+body {
+  height: 100%;
+  min-width: 320px;
+  font: 14px/24px "Nexa Light Regular",sans-serif;
+  color: var(--color-text);
+  background: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+}
+

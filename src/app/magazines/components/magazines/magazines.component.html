@@ -1,0 +1,79 @@
+<h1>Thought Trace Code Challange</h1>
+<div class="container">
+  <button (click)="loadMagazines()">Fetch</button>
+
+  <img
+    class="loading"
+    src="/assets/img/loading.svg"
+    *ngIf="(magazinesLoaded$ | async) === false && !(magazinesError$ | async)"
+  />
+
+  <div class="error" *ngIf="magazinesError$ | async">
+    Oops! Something went wrong. Try again.
+  </div>
+
+  <div class="accordion" *ngIf="(magazinesLoaded$ | async) === true">
+    <ul>
+      <li>
+        <input type="checkbox" />
+        <i class="arrow"></i>
+        <h2>raw, unstyled JSON</h2>
+        <p>
+          <code>
+            {{ allMagazines$ | async | json }}
+          </code>
+        </p>
+      </li>
+      <li>
+        <input type="checkbox" />
+        <i class="arrow"></i>
+        <h2>nested, denormalized fashion</h2>
+        <p *ngIf="allMagazines$ | async as magazines">
+          <ng-container *ngFor="let magazine of magazines">
+            <label>Magazines</label>
+            <ul class="nested">
+              <li>id: {{ magazine.id }}</li>
+              <li>name: {{ magazine.name }}</li>
+              <li>
+                <label>Issues</label>
+                <ul *ngIf="magazine.issues as issues">
+                  <li *ngFor="let issue of issues">
+                    <ul>
+                      <li>id: {{ issue.id }}</li>
+                      <li>month: {{ issue.month }}</li>
+                      <li>year: {{ issue.year }}</li>
+                      <li>
+                        <label>Articles</label>
+                        <ul *ngIf="issue.articles as articles">
+                          <li *ngFor="let article of articles">
+                            <ul>
+                              <li>id: {{ article.id }}</li>
+                              <li>title: {{ article.title }}</li>
+                              <li>textContent: {{ article.textContent }}</li>
+                              <li>
+                                <label>Images</label>
+                                <ul *ngIf="article.images as images">
+                                  <li *ngFor="let image of images">
+                                    <ul>
+                                      <li>id: {{ image.id }}</li>
+                                      <li>caption: {{ image.caption }}</li>
+                                      <li>fileName: {{ image.fileName }}</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </ng-container>
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>

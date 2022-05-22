@@ -1,0 +1,180 @@
+[
+    {
+        "id": "4cfe55b4-8133-45ec-8320-1671082c2e55",
+        "name": "Magazine A",
+        "issues": [
+            {
+                "id": "5d7ed232-d2e5-4254-a367-1369b042bb02",
+                "month": 8,
+                "year": 2021,
+                "articles": [
+                    {
+                        "id": "ec61b1ed-a235-44a2-bfea-9f8c8fe8937e",
+                        "title": "Article A",
+                        "textContent": "Text Content A",
+                        "images": [
+                            {
+                                "id": "cd43b307-665e-4f27-9df0-033cdac2dc9c",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption A"
+                            },
+                            {
+                                "id": "e09585c1-0772-4517-b394-eacbda159b1d",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption B"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "abf0169a-aac4-40af-819b-4865c6518d1c",
+                        "title": "Article B",
+                        "textContent": "Text Content B",
+                        "images": [
+                            {
+                                "id": "3a507675-36d2-48a6-b655-6a106ff50c6e",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption C"
+                            },
+                            {
+                                "id": "721b5cd7-cdb2-4463-833c-8d06b4705cca",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption D"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "7f170ffe-0403-4f05-a357-87073ba65bc2",
+                "month": 9,
+                "year": 2021,
+                "articles": [
+                    {
+                        "id": "cd4ca9ca-1b72-43c7-9224-44df49fa5e31",
+                        "title": "Article C",
+                        "textContent": "Text Content C",
+                        "images": [
+                            {
+                                "id": "a3a6e1cf-1b1b-45ac-b3db-d248acf289da",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption E"
+                            },
+                            {
+                                "id": "e4c2ac87-1134-4980-aa4f-0dd47490cfd8",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption F"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "911e6321-af48-411c-bdfe-d3d9e9595d20",
+                        "title": "Article D",
+                        "textContent": "Text Content D",
+                        "images": [
+                            {
+                                "id": "a61914ba-ce9b-4124-812f-c92676f6c939",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption G"
+                            },
+                            {
+                                "id": "f84c4876-8985-48af-a100-3b66b6c8d79e",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption H"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "id": "145c0cfa-18bf-4cd1-87ee-2729698f715d",
+        "name": "Magazine B",
+        "issues": [
+            {
+                "id": "4c7dbf34-1bde-43ec-896c-481401bdd092",
+                "month": 8,
+                "year": 2021,
+                "articles": [
+                    {
+                        "id": "5e5be04c-fe5e-4865-b82f-b829ad53f2a1",
+                        "title": "Article E",
+                        "textContent": "Text Content E",
+                        "images": [
+                            {
+                                "id": "f3558348-640e-4cc5-8ed3-7942759bad58",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption I"
+                            },
+                            {
+                                "id": "8f06daef-8bbc-4042-bd58-2c845154e55a",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption J"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "895b8ee1-7264-4300-93d8-35efc66df030",
+                        "title": "Article F",
+                        "textContent": "Text Content F",
+                        "images": [
+                            {
+                                "id": "12aa65b0-40a4-42f6-b752-1c8795ad4c9e",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption K"
+                            },
+                            {
+                                "id": "fe83b6b2-d436-4ded-8c46-797f54454e72",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption L"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "5224f85e-5117-4610-a404-b0f3b5c974a3",
+                "month": 9,
+                "year": 2021,
+                "articles": [
+                    {
+                        "id": "d6ae623b-f4e5-4eba-bc2c-673885a4a1d5",
+                        "title": "Article G",
+                        "textContent": "Text Content G",
+                        "images": [
+                            {
+                                "id": "2cca23f0-c157-4ccf-b26a-855fbf7e5f57",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption M"
+                            },
+                            {
+                                "id": "c3863fb9-c6d0-4182-a814-8b1d2908764c",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption N"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "53751984-c751-41c1-b5e3-bf1735aee3e6",
+                        "title": "Article H",
+                        "textContent": "Text Content H",
+                        "images": [
+                            {
+                                "id": "218ce84d-527b-4a9f-82e3-2a99b763bdbe",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption O"
+                            },
+                            {
+                                "id": "b06a49d3-0392-40fa-8df0-628c20b96e04",
+                                "fileName": "assets/img/placeholder.png",
+                                "caption": "Caption P"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+
+    }
+]
