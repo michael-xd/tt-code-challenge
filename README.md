@@ -20,9 +20,11 @@ The purpose of this test is a to write a small Angular application which fetches
   - Anything else that you consider to be valuable or important
 - For the sake of limiting scope, we only need one component. It can be the auto-generated app component. Don't worry about styling the HTML or CSS in any way. The button can be a regular vanilla HTML button, and the data can be displayed as raw JSON.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+## Project
 
-## Dependancies
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6 and uses [NGRX](https://ngrx.io/) version 13.2.0 for state management.
+
+## Dependencies
 
 Run `npm i` to install the project dependancies.
 
